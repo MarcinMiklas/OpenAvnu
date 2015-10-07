@@ -231,7 +231,7 @@ U16 openavbMapPipeMaxDataSizeCB(media_q_t *pMediaQ)
 		}
 
 		AVB_TRACE_EXIT(AVB_TRACE_MAP);
-		return pPvtData->maxDataSize + TOTAL_HEADER_SIZE;
+		return pPvtData->maxDataSize;
 	}
 	AVB_TRACE_EXIT(AVB_TRACE_MAP);
 	return 0;
