@@ -95,7 +95,7 @@ https://github.com/benhoyt/inih/commit/74d2ca064fb293bc60a77b0bd068075b293cf175.
 
 #define TOTAL_HEADER_SIZE			(AVTP_V0_HEADER_SIZE + MAP_HEADER_SIZE)
 
-#define MAX_PAYLOAD_SIZE 			14
+#define MAX_PAYLOAD_SIZE 			1480
 #define MAX_DATA_SIZE 				(MAX_PAYLOAD_SIZE + TOTAL_HEADER_SIZE)
 
 #define ITEM_SIZE					MAX_DATA_SIZE
